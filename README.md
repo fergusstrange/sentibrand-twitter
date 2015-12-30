@@ -1,1 +1,1 @@
-# Sentibrand-twitter
+# Sentibrand-twitter [![Build Status](https://travis-ci.org/fergusstrange/sentibrand-twitter.svg?branch=master)](https://travis-ci.org/fergusstrange/sentibrand-twitter)
