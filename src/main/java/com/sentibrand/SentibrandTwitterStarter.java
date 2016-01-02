@@ -1,11 +1,9 @@
 package com.sentibrand;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.sentibrand.twitterdata.TwitterDataStream;
 
-@SpringBootApplication
 public class SentibrandTwitterStarter {
     public static void main(String... args) {
-        SpringApplication.run(SentibrandTwitterStarter.class, args);
+        new TwitterDataStream().openAndProcessStream(args);
     }
 }
